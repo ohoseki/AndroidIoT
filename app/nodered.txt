@@ -1,0 +1,63 @@
+[
+    {
+        "id": "193fd7a8.b0fa88",
+        "type": "ui_chart",
+        "z": "6610ace.baca054",
+        "name": "",
+        "group": "3d901202.f7521e",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temperatura",
+        "chartType": "pie",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d901202.f7521e",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "c4908818.f97268",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c4908818.f97268",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
