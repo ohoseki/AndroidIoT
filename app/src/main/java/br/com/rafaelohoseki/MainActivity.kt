@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,IluminacaoActivity::class.java))
         }
 
+        botaoTemperatura.setOnClickListener {
+            startActivity(Intent(this,TemperaturaActivity::class.java))
+        }
+
         botaoSair.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             startActivity(Intent(this, LoginActivity::class.java))

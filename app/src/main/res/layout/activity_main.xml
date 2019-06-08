@@ -24,10 +24,20 @@
             android:layout_marginEnd="32dp"/>
     <Button
             android:text="Sair"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/botaoSair"
+            app:layout_constraintEnd_toEndOf="@+id/botaoTemperatura"
+            app:layout_constraintStart_toStartOf="@+id/botaoTemperatura" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/botaoTemperatura"/>
+    <Button
+            android:text="Controle de Temperatura"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/botaoSair" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/botaoIluminacao"
+            android:id="@+id/botaoTemperatura" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/botaoIluminacao" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/botaoSair"
             app:layout_constraintStart_toStartOf="@+id/botaoIluminacao"
-            app:layout_constraintEnd_toEndOf="@+id/botaoIluminacao"/>
+            app:layout_constraintEnd_toEndOf="@+id/botaoIluminacao" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.135"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
